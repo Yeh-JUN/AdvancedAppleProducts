@@ -1,0 +1,162 @@
+.navbar{
+    height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.container-fluid{
+    max-width: 85%
+}
+
+.display-price{
+    color: black;
+    font-weight: 700;
+}
+
+.color-selector{
+    margin-top: 30px;
+    border-top: 1px solid rgba(204, 204, 204);
+}
+
+.display-style{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(204, 204, 204);
+    display: none;
+}
+
+.display-style span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.display-style a{
+    font-weight: 700;
+    font-size: 12px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+
+.display-style:hover{
+    cursor: pointer;
+    color:#06c;
+}
+
+.fadein{
+    display: flex;
+
+}
+.fadeout{
+    display: none;
+}
+
+.installment-price{
+    font-size: 12px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    background-color:rgb(204, 204, 204);
+}
+
+.img-display{
+    width: 100%;
+    position: sticky;
+    top: -50px;
+}
+
+.buy-ipad-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 11px;
+    font-family: SF Pro TC,SF Pro Display,SF Pro Icons,AOS Icons,PingFang TC,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.reminder-sentence{
+    display: flex;
+    background-color:rgb(240, 240, 240) ;
+    font-size: 12px;
+    padding: 20px 10px;
+    margin: 20px 5px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.reminder-icon i{
+    padding-right: 15px;
+    font-size: 15px;
+    color: black;
+    background-color:rgb(240, 240, 240) ;
+}
+
+
+.selector{
+    padding: 30px 0 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.color-title{
+    color: black;
+    font-weight: 700;
+    font-family: SF Pro TC,SF Pro Display,SF Pro Icons,AOS Icons,PingFang TC,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.color-item{
+    padding: 22px 30px;
+    margin: 10px 10px;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-item *{
+    pointer-events: none;
+}
+
+.color{
+    font-size: 12px;
+}
+
+.storage-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.network{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.color-item img{
+    width: 20%;
+    margin: 5px;
+}
+
+.color-item span{
+    width: 25%;
+}
+
+.color-outside{
+    margin-top:14px;
+    padding:0 7px;
+}
+
+.color-item:hover{
+border-color: black;
+cursor: pointer;
+}
+
+
+
